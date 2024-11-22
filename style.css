@@ -59,6 +59,7 @@ nav{
 #banner{
     background-color: antiquewhite;
     font-family: "Montserrat", sans-serif;
+    height: 682px;
 }
 .banner_main{
     display: flex;
@@ -565,6 +566,63 @@ padding-right: 94px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.main_subs .bottom input ::placeholder{
-  
+
+/* footer Section */
+#footer{
+    background-color: #FAFAFA;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 195px;
+    height: 346px;
+}
+.footer_top{
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+}
+.footer_box{
+    width: 20%;
+}
+.footer_box h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #252B42;
+    padding-bottom: 20px;
+}
+.footer_box a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    color: #737373;
+    padding-bottom: 20px;
+}
+.footer_box i{
+    color: #96BB7C;
+}
+.footer_box small{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    color: #737373;
+    padding-bottom: 20px;
+}
+.footer_bottom{
+    padding: 25px 0;
+}
+.footer_bottom small{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #737373;
+}
+.footer_bottom .footer_icon{
+    float: right;
+    display: flex;
+    gap: 20px;
+    margin-right: 70px ;
+    padding: 10px 0;
+    color: #96BB7C;
 }
